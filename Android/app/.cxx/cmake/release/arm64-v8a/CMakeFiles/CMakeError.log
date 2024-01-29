@@ -1,0 +1,16 @@
+Performing C++ SOURCE FILE Test HAVE_MYSQL_OPT_EMBEDDED_CONNECTION failed with the following output:
+Change Dir: /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_aa69f"
+[1/2] Building CXX object CMakeFiles/cmTC_aa69f.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_aa69f.dir/src.cxx.o 
+/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/sysroot    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -DHAVE_MYSQL_OPT_EMBEDDED_CONNECTION -fPIE -o CMakeFiles/cmTC_aa69f.dir/src.cxx.o -c src.cxx
+src.cxx:1:10: fatal error: 'mysql.h' file not found
+#include <mysql.h>
+         ^~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source file was:
+#include <mysql.h>
+int main() { int i = MYSQL_OPT_USE_EMBEDDED_CONNECTION; }

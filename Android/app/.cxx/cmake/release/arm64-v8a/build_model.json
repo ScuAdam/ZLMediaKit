@@ -1,0 +1,234 @@
+{
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 16,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cmake": {
+    "cmakeArtifactsBaseFolder": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a",
+    "cmakeServerLogFile": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a/cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cxx/release/arm64-v8a",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
+      ],
+      "buildRoot": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a",
+      "cmakeToolchain": "/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android.toolchain.cmake",
+      "cmakeExecutable": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+      "variables": [
+        {
+          "name": "CMAKE_CXX_FLAGS",
+          "value": "-std\u003dc++11 -frtti -fexceptions"
+        },
+        {
+          "name": "CMAKE_FIND_ROOT_PATH",
+          "value": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/prefab/arm64-v8a/prefab"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Release"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "arm64-v8a"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-16"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "arm64-v8a"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/build/intermediates/cmake/release/obj/arm64-v8a"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "16"
+        },
+        {
+          "name": "ENABLE_API",
+          "value": "on"
+        },
+        {
+          "name": "ENABLE_API_STATIC_LIB",
+          "value": "on"
+        },
+        {
+          "name": "ENABLE_TESTS",
+          "value": "off"
+        },
+        {
+          "name": "ENABLE_PLAYER",
+          "value": "off"
+        },
+        {
+          "name": "ENABLE_SERVER_LIB",
+          "value": "on"
+        }
+      ]
+    }
+  },
+  "cxxBuildFolder": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a",
+  "info": {
+    "abi": "ARM64_V8A",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a",
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DENABLE_API\u003don",
+      "-DENABLE_API_STATIC_LIB\u003don",
+      "-DENABLE_TESTS\u003doff",
+      "-DENABLE_PLAYER\u003doff",
+      "-DENABLE_SERVER_LIB\u003don"
+    ],
+    "buildTargetSet": [],
+    "cFlagsList": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [
+      "-std\u003dc++11 -frtti -fexceptions"
+    ],
+    "isDebuggableEnabled": false,
+    "module": {
+      "buildSystem": "CMAKE",
+      "cmake": {
+        "cmakeExe": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+      },
+      "cmakeToolchainFile": "/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android.toolchain.cmake",
+      "cxxFolder": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx",
+      "gradleModulePathName": ":app",
+      "intermediatesFolder": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/build/intermediates",
+      "makeFile": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+      "moduleBuildFile": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/build.gradle",
+      "moduleRootFolder": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app",
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkFolder": "/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 31,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30,
+          "S": 31
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkVersion": "23.2.8568313",
+      "project": {
+        "compilerSettingsCacheFolder": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/.cxx",
+        "cxxFolder": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/.cxx",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android",
+        "sdkFolder": "/Users/wuyadong/Library/Android/sdk",
+        "isPrefabEnabled": false
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      }
+    },
+    "objFolder": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/build/intermediates/cmake/release/obj",
+    "variantName": "release",
+    "validAbiList": [
+      "ARM64_V8A"
+    ],
+    "prefabDirectory": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/prefab",
+    "prefabPackageDirectoryList": []
+  },
+  "prefabFolder": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/prefab/arm64-v8a"
+}

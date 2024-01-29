@@ -1,0 +1,122 @@
+{
+  "buildFiles": [
+    "/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android-legacy.toolchain.cmake",
+    "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/server/CMakeLists.txt",
+    "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/cmake/FindMYSQL.cmake",
+    "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/version.h.ini",
+    "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/api/CMakeLists.txt",
+    "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/src/CMakeLists.txt",
+    "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/CMakeLists.txt",
+    "/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android.toolchain.cmake",
+    "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/cmake/FindJEMALLOC.cmake",
+    "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/CMakeLists.txt",
+    "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/CMakeLists.txt",
+    "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/srt/CMakeLists.txt",
+    "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/cmake/FindFAAC.cmake",
+    "/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/compiler_id.cmake",
+    "/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/platforms.cmake",
+    "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/cmake/FindX264.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "flv-Debug-arm64-v8a": {
+      "artifactName": "flv",
+      "buildCommand": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/debug/arm64-v8a\" flv",
+      "abi": "arm64-v8a",
+      "output": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libflv.a",
+      "runtimeFiles": []
+    },
+    "ext-codec-Debug-arm64-v8a": {
+      "artifactName": "ext-codec",
+      "buildCommand": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/debug/arm64-v8a\" ext-codec",
+      "abi": "arm64-v8a",
+      "output": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libext-codec.a",
+      "runtimeFiles": []
+    },
+    "srt-Debug-arm64-v8a": {
+      "artifactName": "srt",
+      "buildCommand": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/debug/arm64-v8a\" srt",
+      "abi": "arm64-v8a",
+      "output": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libsrt.a",
+      "runtimeFiles": []
+    },
+    "mov-Debug-arm64-v8a": {
+      "artifactName": "mov",
+      "buildCommand": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/debug/arm64-v8a\" mov",
+      "abi": "arm64-v8a",
+      "output": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libmov.a",
+      "runtimeFiles": []
+    },
+    "zltoolkit-Debug-arm64-v8a": {
+      "artifactName": "zltoolkit",
+      "buildCommand": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/debug/arm64-v8a\" zltoolkit",
+      "abi": "arm64-v8a",
+      "output": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzltoolkit.a",
+      "runtimeFiles": []
+    },
+    "jsoncpp-Debug-arm64-v8a": {
+      "artifactName": "jsoncpp",
+      "buildCommand": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/debug/arm64-v8a\" jsoncpp",
+      "abi": "arm64-v8a",
+      "output": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libjsoncpp.a",
+      "runtimeFiles": []
+    },
+    "MediaServer-Debug-arm64-v8a": {
+      "artifactName": "MediaServer",
+      "buildCommand": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/debug/arm64-v8a\" MediaServer",
+      "abi": "arm64-v8a",
+      "output": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libMediaServer.a",
+      "runtimeFiles": []
+    },
+    "zlmediakit_jni-Debug-arm64-v8a": {
+      "artifactName": "zlmediakit_jni",
+      "buildCommand": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/debug/arm64-v8a\" zlmediakit_jni",
+      "abi": "arm64-v8a",
+      "output": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzlmediakit_jni.so",
+      "runtimeFiles": [
+        "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libjsoncpp.a",
+        "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libflv.a",
+        "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libmov.a",
+        "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libmpeg.a",
+        "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzltoolkit.a",
+        "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzlmediakit.a",
+        "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libext-codec.a",
+        "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libsrt.a",
+        "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libMediaServer.a",
+        "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libext-codec.a",
+        "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libsrt.a",
+        "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzlmediakit.a",
+        "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libjsoncpp.a",
+        "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libflv.a",
+        "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libmov.a",
+        "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libmpeg.a",
+        "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzltoolkit.a"
+      ]
+    },
+    "mpeg-Debug-arm64-v8a": {
+      "artifactName": "mpeg",
+      "buildCommand": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/debug/arm64-v8a\" mpeg",
+      "abi": "arm64-v8a",
+      "output": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libmpeg.a",
+      "runtimeFiles": []
+    },
+    "zlmediakit-Debug-arm64-v8a": {
+      "artifactName": "zlmediakit",
+      "buildCommand": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/debug/arm64-v8a\" zlmediakit",
+      "abi": "arm64-v8a",
+      "output": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzlmediakit.a",
+      "runtimeFiles": []
+    },
+    "mk_api-Debug-arm64-v8a": {
+      "artifactName": "mk_api",
+      "buildCommand": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/debug/arm64-v8a\" mk_api",
+      "abi": "arm64-v8a",
+      "output": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libmk_api.a",
+      "runtimeFiles": []
+    }
+  }
+}

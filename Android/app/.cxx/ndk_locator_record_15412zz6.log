@@ -1,0 +1,42 @@
+[
+  {
+    "level": "INFO",
+    "message": "android.ndkVersion from module build.gradle is 23.2.8568313"
+  },
+  {
+    "level": "INFO",
+    "message": "ndk.dir in local.properties is /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313"
+  },
+  {
+    "level": "INFO",
+    "message": "ANDROID_NDK_HOME environment variable is not set"
+  },
+  {
+    "level": "INFO",
+    "message": "sdkFolder is /Users/wuyadong/Library/Android/sdk"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313 by ndk.dir"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/wuyadong/Library/Android/sdk/ndk-bundle in SDK ndk-bundle folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/wuyadong/Library/Android/sdk/ndk/25.1.8937393 in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313 in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/wuyadong/Library/Android/sdk/ndk/23.1.7779620 in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Choosing /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313 from ndk.dir which had the requested version 23.2.8568313"
+  }
+]
