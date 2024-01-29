@@ -7,14 +7,14 @@ arguments :
 -DCMAKE_TOOLCHAIN_FILE=/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android.toolchain.cmake
 -DANDROID_ABI=arm64-v8a
 -DANDROID_NDK=/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313
--DANDROID_PLATFORM=android-16
+-DANDROID_PLATFORM=android-21
 -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
 -DCMAKE_ANDROID_NDK=/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313
 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/build/intermediates/cmake/release/obj/arm64-v8a
 -DCMAKE_MAKE_PROGRAM=/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
 -DCMAKE_SYSTEM_NAME=Android
--DCMAKE_SYSTEM_VERSION=16
+-DCMAKE_SYSTEM_VERSION=21
 -DENABLE_API=on
 -DENABLE_API_STATIC_LIB=on
 -DENABLE_TESTS=off

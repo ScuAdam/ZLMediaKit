@@ -143,7 +143,7 @@ Call Stack (most recent call first):
 
 Detecting CXX compile features - done
 编译类型: Release
-Git version is  / 2024-01-22T11:34:09
+Git version is feature/add-media-codec 8185f99/2024-01-29T10:29:06+08:00 2024-01-29T10:52:30
 CMake Warning at /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/../../../../../CMakeLists.txt:409 (message):
   openssl 未找到, rtmp 将不支持 flash 播放器,
   https/wss/rtsps/rtmps/webrtc 也将失效

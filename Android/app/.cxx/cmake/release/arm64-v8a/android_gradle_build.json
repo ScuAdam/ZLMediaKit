@@ -74,163 +74,6 @@
         "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzltoolkit.a"
       ]
     },
-    "ext-codec-Release-arm64-v8a": {
-      "buildCommand": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a\" ext-codec",
-      "buildType": "release",
-      "toolchain": "1634463084",
-      "abi": "arm64-v8a",
-      "artifactName": "ext-codec",
-      "files": [
-        {
-          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/AAC.cpp",
-          "flagsOrdinal": 10,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/AACRtmp.cpp",
-          "flagsOrdinal": 10,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/AACRtp.cpp",
-          "flagsOrdinal": 10,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/G711.cpp",
-          "flagsOrdinal": 10,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/G711Rtp.cpp",
-          "flagsOrdinal": 10,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H264.cpp",
-          "flagsOrdinal": 10,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H264Rtmp.cpp",
-          "flagsOrdinal": 10,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H264Rtp.cpp",
-          "flagsOrdinal": 10,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H265.cpp",
-          "flagsOrdinal": 10,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H265Rtmp.cpp",
-          "flagsOrdinal": 10,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H265Rtp.cpp",
-          "flagsOrdinal": 10,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/JPEG.cpp",
-          "flagsOrdinal": 10,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/JPEGRtp.cpp",
-          "flagsOrdinal": 10,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/L16.cpp",
-          "flagsOrdinal": 10,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/Opus.cpp",
-          "flagsOrdinal": 10,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/SPSParser.c",
-          "flagsOrdinal": 9,
-          "workingDirectoryOrdinal": 0
-        }
-      ],
-      "headers": [
-        {
-          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/AAC.h",
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/AACRtmp.h",
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/AACRtp.h",
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/G711.h",
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/G711Rtp.h",
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H264.h",
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H264Rtmp.h",
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H264Rtp.h",
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H265.h",
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H265Rtmp.h",
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H265Rtp.h",
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/JPEG.h",
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/JPEGRtp.h",
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/L16.h",
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/Opus.h",
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/SPSParser.h",
-          "workingDirectoryOrdinal": 0
-        }
-      ],
-      "output": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libext-codec.a",
-      "runtimeFiles": []
-    },
     "zltoolkit-Release-arm64-v8a": {
       "buildCommand": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a\" zltoolkit",
       "buildType": "release",
@@ -582,6 +425,163 @@
         }
       ],
       "output": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzltoolkit.a",
+      "runtimeFiles": []
+    },
+    "ext-codec-Release-arm64-v8a": {
+      "buildCommand": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a\" ext-codec",
+      "buildType": "release",
+      "toolchain": "1634463084",
+      "abi": "arm64-v8a",
+      "artifactName": "ext-codec",
+      "files": [
+        {
+          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/AAC.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/AACRtmp.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/AACRtp.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/G711.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/G711Rtp.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H264.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H264Rtmp.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H264Rtp.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H265.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H265Rtmp.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H265Rtp.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/JPEG.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/JPEGRtp.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/L16.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/Opus.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/SPSParser.c",
+          "flagsOrdinal": 9,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/AAC.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/AACRtmp.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/AACRtp.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/G711.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/G711Rtp.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H264.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H264Rtmp.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H264Rtp.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H265.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H265Rtmp.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/H265Rtp.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/JPEG.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/JPEGRtp.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/L16.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/Opus.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/SPSParser.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libext-codec.a",
       "runtimeFiles": []
     },
     "jsoncpp-Release-arm64-v8a": {

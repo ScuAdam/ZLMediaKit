@@ -48,18 +48,18 @@
         "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzltoolkit.a"
       ]
     },
-    "ext-codec-Release-arm64-v8a": {
-      "artifactName": "ext-codec",
-      "buildCommand": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a\" ext-codec",
-      "abi": "arm64-v8a",
-      "output": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libext-codec.a",
-      "runtimeFiles": []
-    },
     "zltoolkit-Release-arm64-v8a": {
       "artifactName": "zltoolkit",
       "buildCommand": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a\" zltoolkit",
       "abi": "arm64-v8a",
       "output": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzltoolkit.a",
+      "runtimeFiles": []
+    },
+    "ext-codec-Release-arm64-v8a": {
+      "artifactName": "ext-codec",
+      "buildCommand": "/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a\" ext-codec",
+      "abi": "arm64-v8a",
+      "output": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libext-codec.a",
       "runtimeFiles": []
     },
     "jsoncpp-Release-arm64-v8a": {

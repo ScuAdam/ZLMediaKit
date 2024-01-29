@@ -253,3 +253,9 @@
 86077	86377	1706238999	/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libext-codec.a	4e64cc89bd79f089
 86377	86705	1706238999	/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libMediaServer.a	95c63786468a1b3f
 86705	88029	1706239000	/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzlmediakit_jni.so	9c0a2dea517b1ef4
+7	1339	1706497572	../../../../src/main/cpp/libs_export/arm64-v8a/binary/src/CMakeFiles/zlmediakit.dir/Common/macros.cpp.o	7ab0af83e60f93a7
+1339	3340	1706497574	/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzlmediakit.a	6ea0387e0cc6b75e
+10	7635	1706497578	../../../../src/main/cpp/libs_export/arm64-v8a/binary/server/CMakeFiles/MediaServer.dir/main.cpp.o	349c4096b18f0262
+9	15056	1706497585	../../../../src/main/cpp/libs_export/arm64-v8a/binary/server/CMakeFiles/MediaServer.dir/WebApi.cpp.o	820b8df78bc6799a
+15056	15300	1706497586	/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libMediaServer.a	95c63786468a1b3f
+15300	17424	1706497587	/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzlmediakit_jni.so	9c0a2dea517b1ef4

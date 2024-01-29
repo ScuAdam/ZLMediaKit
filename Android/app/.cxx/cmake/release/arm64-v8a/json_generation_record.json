@@ -1,7 +1,7 @@
 [
   {
     "level": "INFO",
-    "message": "Start JSON generation. Platform version: 16 min SDK version: arm64-v8a",
+    "message": "Start JSON generation. Platform version: 21 min SDK version: arm64-v8a",
     "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
     "tag": "release|arm64-v8a"
   },
@@ -37,7 +37,883 @@
   },
   {
     "level": "INFO",
-    "message": "JSON \u0027/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json\u0027 was up-to-date",
+    "message": "rebuilding JSON /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json due to:",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a\u0027",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a\u0027",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : /Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp\n-DCMAKE_CXX_FLAGS\u003d-std\u003dc++11 -frtti -fexceptions\n-DCMAKE_FIND_ROOT_PATH\u003d/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/prefab/arm64-v8a/prefab\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_NDK\u003d/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313\n-DANDROID_PLATFORM\u003dandroid-21\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_NDK\u003d/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/build/intermediates/cmake/release/obj/arm64-v8a\n-DCMAKE_MAKE_PROGRAM\u003d/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d21\n-DENABLE_API\u003don\n-DENABLE_API_STATIC_LIB\u003don\n-DENABLE_TESTS\u003doff\n-DENABLE_PLAYER\u003doff\n-DENABLE_SERVER_LIB\u003don\n-B/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a\n-GNinja\njvmArgs : \n\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp\",\n  \"buildDirectory\": \"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_CXX_FLAGS\\u003d-std\\u003dc++11 -frtti -fexceptions\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003d/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/prefab/arm64-v8a/prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dRelease\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003darm64-v8a\",\n    \"-DANDROID_NDK\\u003d/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313\",\n    \"-DANDROID_PLATFORM\\u003dandroid-21\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darm64-v8a\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/build/intermediates/cmake/release/obj/arm64-v8a\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d21\",\n    \"-DENABLE_API\\u003don\",\n    \"-DENABLE_API_STATIC_LIB\\u003don\",\n    \"-DENABLE_TESTS\\u003doff\",\n    \"-DENABLE_PLAYER\\u003doff\",\n    \"-DENABLE_SERVER_LIB\\u003don\"\n  ]\n}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android-legacy.toolchain.cmake:416 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\u0027s built-in compiler identification.\\nCall Stack (most recent call first):\\n  /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android.toolchain.cmake:55 (include)\\n  /Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\\n  CMakeLists.txt:1 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "WARN",
+    "message": "CMake Warning at /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake\u0027s built-in compiler identification.\nCall Stack (most recent call first):\n  /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android.toolchain.cmake:55 (include)\n  /Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\n  CMakeLists.txt:1 (project)\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android-legacy.toolchain.cmake:416 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\u0027s built-in compiler identification.\\nCall Stack (most recent call first):\\n  /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android.toolchain.cmake:55 (include)\\n  /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "WARN",
+    "message": "CMake Warning at /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake\u0027s built-in compiler identification.\nCall Stack (most recent call first):\n  /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android.toolchain.cmake:55 (include)\n  /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info - done",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features - done",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info - done",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features - done",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":334,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"编译类型: Release\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "编译类型: Release",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Git version is feature/add-media-codec 8185f99/2024-01-29T10:29:06+08:00 2024-01-29T10:52:30\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Git version is feature/add-media-codec 8185f99/2024-01-29T10:29:06+08:00 2024-01-29T10:52:30",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at ../../../../../CMakeLists.txt:409 (message):\\n  openssl 未找到, rtmp 将不支持 flash 播放器,\\n  https/wss/rtsps/rtmps/webrtc 也将失效\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "WARN",
+    "message": "CMake Warning at /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/../../../../../CMakeLists.txt:409 (message):\n  openssl 未找到, rtmp 将不支持 flash 播放器,\n  https/wss/rtsps/rtmps/webrtc 也将失效\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Performing Test HAVE_MYSQL_OPT_EMBEDDED_CONNECTION\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Performing Test HAVE_MYSQL_OPT_EMBEDDED_CONNECTION",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android-legacy.toolchain.cmake:416 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\u0027s built-in compiler identification.\\nCall Stack (most recent call first):\\n  /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android.toolchain.cmake:55 (include)\\n  /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "WARN",
+    "message": "CMake Warning at /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake\u0027s built-in compiler identification.\nCall Stack (most recent call first):\n  /Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android.toolchain.cmake:55 (include)\n  /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":356,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Performing Test HAVE_MYSQL_OPT_EMBEDDED_CONNECTION - Failed\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Performing Test HAVE_MYSQL_OPT_EMBEDDED_CONNECTION - Failed",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"MySQL not found.\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "MySQL not found.",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":377,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"ENABLE_MP4 defined\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "ENABLE_MP4 defined",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"ENABLE_RTPPROXY defined\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "ENABLE_RTPPROXY defined",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"ENABLE_HLS defined\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "ENABLE_HLS defined",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Performing Test HAVE_MMSG_HDR\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Performing Test HAVE_MMSG_HDR",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":398,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Performing Test HAVE_MMSG_HDR - Success\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Performing Test HAVE_MMSG_HDR - Success",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for sendmmsg\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Looking for sendmmsg",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":418,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for sendmmsg - found\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Looking for sendmmsg - found",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for recvmmsg\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Looking for recvmmsg",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":438,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for recvmmsg - found\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Looking for recvmmsg - found",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Socket default buffer size is set to 262144\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Socket default buffer size is set to 262144",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"set_file_group /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/ZLToolKit/src 78\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "set_file_group /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/ZLToolKit/src 78",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":456,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"set_file_group /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/src 205\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "set_file_group /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/src 205",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":474,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":492,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"srt 功能已开启\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "srt 功能已开启",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":509,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Performing Test COMPILER_HAS_HIDDEN_VISIBILITY",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":525,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":541,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Performing Test COMPILER_HAS_DEPRECATED_ATTR\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Performing Test COMPILER_HAS_DEPRECATED_ATTR",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":556,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":571,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":912,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":924,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":937,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":950,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":962,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":974,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":987,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring done",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"compute\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":125,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":250,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":375,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":500,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":625,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":750,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":875,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Generating done",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"cmakeInputs\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindGit.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindOpenSSL.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPkgConfig.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCXXSourceCompiles.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakePushCheckState.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCXXSymbolExists.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckSymbolExists.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckStructHasMember.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCSourceCompiles.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCXXSourceCompiles.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckSymbolExists.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeConfigurableFile.in\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeConfigurableFile.in\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/GenerateExportHeader.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCXXCompilerFlag.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCXXSourceCompiles.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake\",\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/exportheader.cmake.in\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android.toolchain.cmake\",\"/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android-legacy.toolchain.cmake\",\"/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/platforms.cmake\",\"/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/compiler_id.cmake\",\"/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/build/cmake/android.toolchain.cmake\",\"../../../../../CMakeLists.txt\",\"../../../../../version.h.ini\",\"../../../../../cmake/FindJEMALLOC.cmake\",\"../../../../../cmake/FindMYSQL.cmake\",\"../../../../../cmake/FindX264.cmake\",\"../../../../../cmake/FindFAAC.cmake\",\"../../../../../3rdpart/CMakeLists.txt\",\"../../../../../src/CMakeLists.txt\",\"../../../../../ext-codec/CMakeLists.txt\",\"../../../../../srt/CMakeLists.txt\",\"../../../../../api/CMakeLists.txt\",\"../../../../../server/CMakeLists.txt\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\"../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake\",\"../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\"../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.c\",\"../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.c\",\"../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.c\",\"../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\"]}],\"cmakeRootDirectory\":\"/Users/wuyadong/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp\",\"type\":\"reply\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"codemodel\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"configurations\":[{\"name\":\"Release\",\"projects\":[{\"buildDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a\",\"name\":\"ZLMediaKit\",\"sourceDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp\",\"targets\":[{\"artifacts\":[\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzlmediakit_jni.so\"],\"buildDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -std\u003dc++11 -frtti -fexceptions -DNDEBUG  -fPIC   -std\u003dgnu++11\",\"defines\":[\"ENABLE_HLS\",\"ENABLE_MP4\",\"ENABLE_RTPPROXY\",\"ENABLE_VERSION\",\"HAVE_MMSG_HDR\",\"HAVE_RECVMMSG_API\",\"HAVE_SENDMMSG_API\",\"zlmediakit_jni_EXPORTS\"],\"includePath\":[{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/../../../../../src\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/../../../../../srt\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/../../../../../webrtc\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/../../../../../server\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/../../../../../3rdpart\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/../../../../../3rdpart/media-server\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/../../../../../3rdpart/ZLToolKit/src\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/jsoncpp/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libflv/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libmov/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libmpeg/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/ZLToolKit/src\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/src\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/..\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/srt\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/srt/..\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"native-lib.cpp\"]}],\"fullName\":\"libzlmediakit_jni.so\",\"linkFlags\":\"-static-libstdc++ -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"-Wl,--start-group -llog -lz /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libjsoncpp.a /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libflv.a /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libmov.a /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libmpeg.a /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzltoolkit.a /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzlmediakit.a /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libext-codec.a /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libsrt.a /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libMediaServer.a -Wl,--end-group /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libext-codec.a /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libsrt.a /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzlmediakit.a /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libjsoncpp.a /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libflv.a /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libmov.a /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libmpeg.a /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzltoolkit.a -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"zlmediakit_jni\",\"sourceDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp\",\"sysroot\":\"/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"artifacts\":[\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libflv.a\"],\"buildDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary/3rdpart\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -DNDEBUG  -fPIC   -fPIC -Wall -Wextra -Wno-unused-function -Wno-unused-parameter -Wno-unused-variable -Wno-error\u003dextra -Wno-error\u003dmissing-field-initializers -Wno-error\u003dtype-limits -g0\",\"defines\":[\"SOCKET_DEFAULT_BUF_SIZE\u003d262144\"],\"includePath\":[{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libflv/include\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"media-server/libflv/source/amf0.c\",\"media-server/libflv/source/amf3.c\",\"media-server/libflv/source/aom-av1.c\",\"media-server/libflv/source/avswg-avs3.c\",\"media-server/libflv/source/flv-demuxer-script.c\",\"media-server/libflv/source/flv-demuxer.c\",\"media-server/libflv/source/flv-header.c\",\"media-server/libflv/source/flv-muxer.c\",\"media-server/libflv/source/flv-parser.c\",\"media-server/libflv/source/flv-reader.c\",\"media-server/libflv/source/flv-writer.c\",\"media-server/libflv/source/hevc-annexbtomp4.c\",\"media-server/libflv/source/hevc-mp4toannexb.c\",\"media-server/libflv/source/mp3-header.c\",\"media-server/libflv/source/mpeg4-aac-asc.c\",\"media-server/libflv/source/mpeg4-aac.c\",\"media-server/libflv/source/mpeg4-annexbtomp4.c\",\"media-server/libflv/source/mpeg4-avc.c\",\"media-server/libflv/source/mpeg4-hevc.c\",\"media-server/libflv/source/mpeg4-mp4toannexb.c\",\"media-server/libflv/source/mpeg4-vvc.c\",\"media-server/libflv/source/opus-head.c\",\"media-server/libflv/source/riff-acm.c\",\"media-server/libflv/source/vvc-annexbtomp4.c\",\"media-server/libflv/source/vvc-mp4toannexb.c\",\"media-server/libflv/source/webm-vpx.c\"]}],\"fullName\":\"libflv.a\",\"linkerLanguage\":\"C\",\"name\":\"flv\",\"sourceDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart\",\"sysroot\":\"/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libmov.a\"],\"buildDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary/3rdpart\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -DNDEBUG  -fPIC   -fPIC -Wall -Wextra -Wno-unused-function -Wno-unused-parameter -Wno-unused-variable -Wno-error\u003dextra -Wno-error\u003dmissing-field-initializers -Wno-error\u003dtype-limits -g0\",\"defines\":[\"SOCKET_DEFAULT_BUF_SIZE\u003d262144\"],\"includePath\":[{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libmov/include\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"media-server/libmov/source/fmp4-reader.c\",\"media-server/libmov/source/fmp4-writer.c\",\"media-server/libmov/source/mov-avc1.c\",\"media-server/libmov/source/mov-dinf.c\",\"media-server/libmov/source/mov-elst.c\",\"media-server/libmov/source/mov-esds.c\",\"media-server/libmov/source/mov-ftyp.c\",\"media-server/libmov/source/mov-hdlr.c\",\"media-server/libmov/source/mov-hdr.c\",\"media-server/libmov/source/mov-iods.c\",\"media-server/libmov/source/mov-leva.c\",\"media-server/libmov/source/mov-mdhd.c\",\"media-server/libmov/source/mov-mehd.c\",\"media-server/libmov/source/mov-mfhd.c\",\"media-server/libmov/source/mov-minf.c\",\"media-server/libmov/source/mov-mvhd.c\",\"media-server/libmov/source/mov-opus.c\",\"media-server/libmov/source/mov-reader.c\",\"media-server/libmov/source/mov-sidx.c\",\"media-server/libmov/source/mov-stco.c\",\"media-server/libmov/source/mov-stsc.c\",\"media-server/libmov/source/mov-stsd.c\",\"media-server/libmov/source/mov-stss.c\",\"media-server/libmov/source/mov-stsz.c\",\"media-server/libmov/source/mov-stts.c\",\"media-server/libmov/source/mov-tag.c\",\"media-server/libmov/source/mov-tfdt.c\",\"media-server/libmov/source/mov-tfhd.c\",\"media-server/libmov/source/mov-tfra.c\",\"media-server/libmov/source/mov-tkhd.c\",\"media-server/libmov/source/mov-track.c\",\"media-server/libmov/source/mov-trex.c\",\"media-server/libmov/source/mov-trun.c\",\"media-server/libmov/source/mov-tx3g.c\",\"media-server/libmov/source/mov-udta.c\",\"media-server/libmov/source/mov-vpcc.c\",\"media-server/libmov/source/mov-writer.c\"]}],\"fullName\":\"libmov.a\",\"linkerLanguage\":\"C\",\"name\":\"mov\",\"sourceDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart\",\"sysroot\":\"/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzltoolkit.a\"],\"buildDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary/3rdpart\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -DNDEBUG  -fPIC   -fPIC -Wall -Wextra -Wno-unused-function -Wno-unused-parameter -Wno-unused-variable -Wno-error\u003dextra -Wno-error\u003dmissing-field-initializers -Wno-error\u003dtype-limits -g0\",\"defines\":[\"HAVE_MMSG_HDR\",\"HAVE_RECVMMSG_API\",\"HAVE_SENDMMSG_API\",\"SOCKET_DEFAULT_BUF_SIZE\u003d262144\"],\"includePath\":[{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/ZLToolKit/src\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"ZLToolKit/src/win32/getopt.c\"]},{\"isGenerated\":false,\"sources\":[\"ZLToolKit/src/Network/Buffer.h\",\"ZLToolKit/src/Network/BufferSock.h\",\"ZLToolKit/src/Network/Server.h\",\"ZLToolKit/src/Network/Session.h\",\"ZLToolKit/src/Network/Socket.h\",\"ZLToolKit/src/Network/TcpClient.h\",\"ZLToolKit/src/Network/TcpServer.h\",\"ZLToolKit/src/Network/UdpServer.h\",\"ZLToolKit/src/Network/sockutil.h\",\"ZLToolKit/src/Poller/EventPoller.h\",\"ZLToolKit/src/Poller/Pipe.h\",\"ZLToolKit/src/Poller/PipeWrap.h\",\"ZLToolKit/src/Poller/SelectWrap.h\",\"ZLToolKit/src/Poller/Timer.h\",\"ZLToolKit/src/Thread/TaskExecutor.h\",\"ZLToolKit/src/Thread/TaskQueue.h\",\"ZLToolKit/src/Thread/ThreadPool.h\",\"ZLToolKit/src/Thread/WorkThreadPool.h\",\"ZLToolKit/src/Thread/semaphore.h\",\"ZLToolKit/src/Thread/threadgroup.h\",\"ZLToolKit/src/Util/CMD.h\",\"ZLToolKit/src/Util/File.h\",\"ZLToolKit/src/Util/List.h\",\"ZLToolKit/src/Util/MD5.h\",\"ZLToolKit/src/Util/NoticeCenter.h\",\"ZLToolKit/src/Util/ResourcePool.h\",\"ZLToolKit/src/Util/RingBuffer.h\",\"ZLToolKit/src/Util/SHA1.h\",\"ZLToolKit/src/Util/SSLBox.h\",\"ZLToolKit/src/Util/SSLUtil.h\",\"ZLToolKit/src/Util/SpeedStatistic.h\",\"ZLToolKit/src/Util/SqlConnection.h\",\"ZLToolKit/src/Util/SqlPool.h\",\"ZLToolKit/src/Util/TimeTicker.h\",\"ZLToolKit/src/Util/base64.h\",\"ZLToolKit/src/Util/function_traits.h\",\"ZLToolKit/src/Util/local_time.h\",\"ZLToolKit/src/Util/logger.h\",\"ZLToolKit/src/Util/mini.h\",\"ZLToolKit/src/Util/onceToken.h\",\"ZLToolKit/src/Util/strptime_win.h\",\"ZLToolKit/src/Util/util.h\",\"ZLToolKit/src/Util/uv_errno.h\",\"ZLToolKit/src/win32/getopt.h\",\"ZLToolKit/src/win32/tailor.h\"]},{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -std\u003dc++11 -frtti -fexceptions -DNDEBUG  -fPIC   -fPIC -Wall -Wextra -Wno-unused-function -Wno-unused-parameter -Wno-unused-variable -Wno-error\u003dextra -Wno-error\u003dmissing-field-initializers -Wno-error\u003dtype-limits -g0 -std\u003dgnu++11\",\"defines\":[\"HAVE_MMSG_HDR\",\"HAVE_RECVMMSG_API\",\"HAVE_SENDMMSG_API\",\"SOCKET_DEFAULT_BUF_SIZE\u003d262144\"],\"includePath\":[{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/ZLToolKit/src\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"ZLToolKit/src/Network/Buffer.cpp\",\"ZLToolKit/src/Network/BufferSock.cpp\",\"ZLToolKit/src/Network/Server.cpp\",\"ZLToolKit/src/Network/Session.cpp\",\"ZLToolKit/src/Network/Socket.cpp\",\"ZLToolKit/src/Network/TcpClient.cpp\",\"ZLToolKit/src/Network/TcpServer.cpp\",\"ZLToolKit/src/Network/UdpServer.cpp\",\"ZLToolKit/src/Network/sockutil.cpp\",\"ZLToolKit/src/Poller/EventPoller.cpp\",\"ZLToolKit/src/Poller/Pipe.cpp\",\"ZLToolKit/src/Poller/PipeWrap.cpp\",\"ZLToolKit/src/Poller/SelectWrap.cpp\",\"ZLToolKit/src/Poller/Timer.cpp\",\"ZLToolKit/src/Thread/TaskExecutor.cpp\",\"ZLToolKit/src/Thread/WorkThreadPool.cpp\",\"ZLToolKit/src/Util/CMD.cpp\",\"ZLToolKit/src/Util/File.cpp\",\"ZLToolKit/src/Util/MD5.cpp\",\"ZLToolKit/src/Util/NoticeCenter.cpp\",\"ZLToolKit/src/Util/SHA1.cpp\",\"ZLToolKit/src/Util/SSLBox.cpp\",\"ZLToolKit/src/Util/SSLUtil.cpp\",\"ZLToolKit/src/Util/SqlPool.cpp\",\"ZLToolKit/src/Util/base64.cpp\",\"ZLToolKit/src/Util/local_time.cpp\",\"ZLToolKit/src/Util/logger.cpp\",\"ZLToolKit/src/Util/mini.cpp\",\"ZLToolKit/src/Util/strptime_win.cpp\",\"ZLToolKit/src/Util/util.cpp\",\"ZLToolKit/src/Util/uv_errno.cpp\"]}],\"fullName\":\"libzltoolkit.a\",\"linkerLanguage\":\"CXX\",\"name\":\"zltoolkit\",\"sourceDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart\",\"sysroot\":\"/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libmpeg.a\"],\"buildDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary/3rdpart\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -DNDEBUG  -fPIC   -fPIC -Wall -Wextra -Wno-unused-function -Wno-unused-parameter -Wno-unused-variable -Wno-error\u003dextra -Wno-error\u003dmissing-field-initializers -Wno-error\u003dtype-limits -g0 -DMPEG_H26X_VERIFY -DMPEG_ZERO_PAYLOAD_LENGTH -DMPEG_DAHUA_AAC_FROM_G711\",\"defines\":[\"SOCKET_DEFAULT_BUF_SIZE\u003d262144\"],\"includePath\":[{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libmpeg/include\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"media-server/libmpeg/source/mpeg-crc32.c\",\"media-server/libmpeg/source/mpeg-element-descriptor.c\",\"media-server/libmpeg/source/mpeg-muxer.c\",\"media-server/libmpeg/source/mpeg-pack-header.c\",\"media-server/libmpeg/source/mpeg-packet.c\",\"media-server/libmpeg/source/mpeg-pat.c\",\"media-server/libmpeg/source/mpeg-pes.c\",\"media-server/libmpeg/source/mpeg-pmt.c\",\"media-server/libmpeg/source/mpeg-ps-dec.c\",\"media-server/libmpeg/source/mpeg-ps-enc.c\",\"media-server/libmpeg/source/mpeg-psd.c\",\"media-server/libmpeg/source/mpeg-psm.c\",\"media-server/libmpeg/source/mpeg-sdt.c\",\"media-server/libmpeg/source/mpeg-system-header.c\",\"media-server/libmpeg/source/mpeg-ts-dec.c\",\"media-server/libmpeg/source/mpeg-ts-enc.c\",\"media-server/libmpeg/source/mpeg-ts-h264.c\",\"media-server/libmpeg/source/mpeg-ts-h265.c\",\"media-server/libmpeg/source/mpeg-ts-h266.c\",\"media-server/libmpeg/source/mpeg-util.c\"]}],\"fullName\":\"libmpeg.a\",\"linkerLanguage\":\"C\",\"name\":\"mpeg\",\"sourceDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart\",\"sysroot\":\"/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libjsoncpp.a\"],\"buildDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary/3rdpart\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -std\u003dc++11 -frtti -fexceptions -DNDEBUG  -fPIC   -fPIC -Wall -Wextra -Wno-unused-function -Wno-unused-parameter -Wno-unused-variable -Wno-error\u003dextra -Wno-error\u003dmissing-field-initializers -Wno-error\u003dtype-limits -g0 -std\u003dgnu++11\",\"defines\":[\"SOCKET_DEFAULT_BUF_SIZE\u003d262144\"],\"includePath\":[{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/jsoncpp/include\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"jsoncpp/src/lib_json/json_reader.cpp\",\"jsoncpp/src/lib_json/json_value.cpp\",\"jsoncpp/src/lib_json/json_writer.cpp\"]},{\"isGenerated\":false,\"sources\":[\"jsoncpp/include/json/allocator.h\",\"jsoncpp/include/json/assertions.h\",\"jsoncpp/include/json/config.h\",\"jsoncpp/include/json/forwards.h\",\"jsoncpp/include/json/json.h\",\"jsoncpp/include/json/json_features.h\",\"jsoncpp/include/json/reader.h\",\"jsoncpp/include/json/value.h\",\"jsoncpp/include/json/version.h\",\"jsoncpp/include/json/writer.h\",\"jsoncpp/src/lib_json/json_tool.h\"]}],\"fullName\":\"libjsoncpp.a\",\"linkerLanguage\":\"CXX\",\"name\":\"jsoncpp\",\"sourceDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart\",\"sysroot\":\"/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libzlmediakit.a\"],\"buildDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary/src\",\"fileGroups\":[{\"isGenerated\":false,\"sources\":[\"Codec/AACEncoder.h\",\"Codec/H264Encoder.h\",\"Codec/Transcode.h\",\"Common/Device.h\",\"Common/JemallocUtil.h\",\"Common/MediaSink.h\",\"Common/MediaSource.h\",\"Common/MultiMediaSourceMuxer.h\",\"Common/PacketCache.h\",\"Common/Parser.h\",\"Common/Stamp.h\",\"Common/config.h\",\"Common/macros.h\",\"Common/strCoding.h\",\"Extension/CommonRtmp.h\",\"Extension/CommonRtp.h\",\"Extension/Factory.h\",\"Extension/Frame.h\",\"Extension/Track.h\",\"FMP4/FMP4MediaSource.h\",\"FMP4/FMP4MediaSourceMuxer.h\",\"Http/HlsParser.h\",\"Http/HlsPlayer.h\",\"Http/HttpBody.h\",\"Http/HttpChunkedSplitter.h\",\"Http/HttpClient.h\",\"Http/HttpClientImp.h\",\"Http/HttpConst.h\",\"Http/HttpCookie.h\",\"Http/HttpCookieManager.h\",\"Http/HttpDownloader.h\",\"Http/HttpFileManager.h\",\"Http/HttpRequestSplitter.h\",\"Http/HttpRequester.h\",\"Http/HttpSession.h\",\"Http/HttpTSPlayer.h\",\"Http/TsPlayer.h\",\"Http/TsPlayerImp.h\",\"Http/WebSocketClient.h\",\"Http/WebSocketSession.h\",\"Http/WebSocketSplitter.h\",\"Player/MediaPlayer.h\",\"Player/PlayerBase.h\",\"Player/PlayerProxy.h\",\"Pusher/MediaPusher.h\",\"Pusher/PusherBase.h\",\"Pusher/PusherProxy.h\",\"Record/HlsMaker.h\",\"Record/HlsMakerImp.h\",\"Record/HlsMediaSource.h\",\"Record/HlsRecorder.h\",\"Record/MP4.h\",\"Record/MP4Demuxer.h\",\"Record/MP4Muxer.h\",\"Record/MP4Reader.h\",\"Record/MP4Recorder.h\",\"Record/MPEG.h\",\"Record/Recorder.h\",\"Rtcp/Rtcp.h\",\"Rtcp/RtcpContext.h\",\"Rtcp/RtcpFCI.h\",\"Rtmp/FlvMuxer.h\",\"Rtmp/FlvPlayer.h\",\"Rtmp/FlvSplitter.h\",\"Rtmp/Rtmp.h\",\"Rtmp/RtmpCodec.h\",\"Rtmp/RtmpDemuxer.h\",\"Rtmp/RtmpMediaSource.h\",\"Rtmp/RtmpMediaSourceImp.h\",\"Rtmp/RtmpMediaSourceMuxer.h\",\"Rtmp/RtmpMuxer.h\",\"Rtmp/RtmpPlayer.h\",\"Rtmp/RtmpPlayerImp.h\",\"Rtmp/RtmpProtocol.h\",\"Rtmp/RtmpPusher.h\",\"Rtmp/RtmpSession.h\",\"Rtmp/amf.h\",\"Rtmp/utils.h\",\"Rtp/Decoder.h\",\"Rtp/GB28181Process.h\",\"Rtp/PSDecoder.h\",\"Rtp/PSEncoder.h\",\"Rtp/ProcessInterface.h\",\"Rtp/RawEncoder.h\",\"Rtp/RtpCache.h\",\"Rtp/RtpProcess.h\",\"Rtp/RtpSelector.h\",\"Rtp/RtpSender.h\",\"Rtp/RtpServer.h\",\"Rtp/RtpSession.h\",\"Rtp/RtpSplitter.h\",\"Rtp/TSDecoder.h\",\"Rtsp/RtpCodec.h\",\"Rtsp/RtpMultiCaster.h\",\"Rtsp/RtpReceiver.h\",\"Rtsp/Rtsp.h\",\"Rtsp/RtspDemuxer.h\",\"Rtsp/RtspMediaSource.h\",\"Rtsp/RtspMediaSourceImp.h\",\"Rtsp/RtspMediaSourceMuxer.h\",\"Rtsp/RtspMuxer.h\",\"Rtsp/RtspPlayer.h\",\"Rtsp/RtspPlayerImp.h\",\"Rtsp/RtspPusher.h\",\"Rtsp/RtspSession.h\",\"Rtsp/RtspSplitter.h\",\"Rtsp/UDPServer.h\",\"Shell/ShellCMD.h\",\"Shell/ShellSession.h\",\"TS/TSMediaSource.h\",\"TS/TSMediaSourceMuxer.h\"]},{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -std\u003dc++11 -frtti -fexceptions -DNDEBUG  -fPIC   -fPIC -Wall -Wextra -Wno-unused-function -Wno-unused-parameter -Wno-unused-variable -Wno-error\u003dextra -Wno-error\u003dmissing-field-initializers -Wno-error\u003dtype-limits -g0 -std\u003dgnu++11\",\"defines\":[\"ENABLE_HLS\",\"ENABLE_MP4\",\"ENABLE_RTPPROXY\",\"ENABLE_VERSION\",\"HAVE_MMSG_HDR\",\"HAVE_RECVMMSG_API\",\"HAVE_SENDMMSG_API\"],\"includePath\":[{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/src\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/jsoncpp/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libflv/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libmov/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libmpeg/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/ZLToolKit/src\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"Codec/AACEncoder.cpp\",\"Codec/H264Encoder.cpp\",\"Codec/Transcode.cpp\",\"Common/Device.cpp\",\"Common/JemallocUtil.cpp\",\"Common/MediaSink.cpp\",\"Common/MediaSource.cpp\",\"Common/MultiMediaSourceMuxer.cpp\",\"Common/Parser.cpp\",\"Common/Stamp.cpp\",\"Common/config.cpp\",\"Common/macros.cpp\",\"Common/strCoding.cpp\",\"Extension/CommonRtmp.cpp\",\"Extension/CommonRtp.cpp\",\"Extension/Factory.cpp\",\"Extension/Frame.cpp\",\"Http/HlsParser.cpp\",\"Http/HlsPlayer.cpp\",\"Http/HttpBody.cpp\",\"Http/HttpChunkedSplitter.cpp\",\"Http/HttpClient.cpp\",\"Http/HttpClientImp.cpp\",\"Http/HttpConst.cpp\",\"Http/HttpCookie.cpp\",\"Http/HttpCookieManager.cpp\",\"Http/HttpDownloader.cpp\",\"Http/HttpFileManager.cpp\",\"Http/HttpRequestSplitter.cpp\",\"Http/HttpRequester.cpp\",\"Http/HttpSession.cpp\",\"Http/HttpTSPlayer.cpp\",\"Http/TsPlayer.cpp\",\"Http/TsplayerImp.cpp\",\"Http/WebSocketSplitter.cpp\",\"Player/MediaPlayer.cpp\",\"Player/PlayerBase.cpp\",\"Player/PlayerProxy.cpp\",\"Pusher/MediaPusher.cpp\",\"Pusher/PusherBase.cpp\",\"Pusher/PusherProxy.cpp\",\"Record/HlsMaker.cpp\",\"Record/HlsMakerImp.cpp\",\"Record/HlsMediaSource.cpp\",\"Record/MP4.cpp\",\"Record/MP4Demuxer.cpp\",\"Record/MP4Muxer.cpp\",\"Record/MP4Reader.cpp\",\"Record/MP4Recorder.cpp\",\"Record/MPEG.cpp\",\"Record/Recorder.cpp\",\"Rtcp/Rtcp.cpp\",\"Rtcp/RtcpContext.cpp\",\"Rtcp/RtcpFCI.cpp\",\"Rtmp/FlvMuxer.cpp\",\"Rtmp/FlvPlayer.cpp\",\"Rtmp/FlvSplitter.cpp\",\"Rtmp/Rtmp.cpp\",\"Rtmp/RtmpDemuxer.cpp\",\"Rtmp/RtmpMediaSourceImp.cpp\",\"Rtmp/RtmpMuxer.cpp\",\"Rtmp/RtmpPlayer.cpp\",\"Rtmp/RtmpProtocol.cpp\",\"Rtmp/RtmpPusher.cpp\",\"Rtmp/RtmpSession.cpp\",\"Rtmp/amf.cpp\",\"Rtmp/utils.cpp\",\"Rtp/Decoder.cpp\",\"Rtp/GB28181Process.cpp\",\"Rtp/PSDecoder.cpp\",\"Rtp/PSEncoder.cpp\",\"Rtp/RawEncoder.cpp\",\"Rtp/RtpCache.cpp\",\"Rtp/RtpProcess.cpp\",\"Rtp/RtpSelector.cpp\",\"Rtp/RtpSender.cpp\",\"Rtp/RtpServer.cpp\",\"Rtp/RtpSession.cpp\",\"Rtp/RtpSplitter.cpp\",\"Rtp/TSDecoder.cpp\",\"Rtsp/RtpCodec.cpp\",\"Rtsp/RtpMultiCaster.cpp\",\"Rtsp/RtpReceiver.cpp\",\"Rtsp/Rtsp.cpp\",\"Rtsp/RtspDemuxer.cpp\",\"Rtsp/RtspMediaSourceImp.cpp\",\"Rtsp/RtspMuxer.cpp\",\"Rtsp/RtspPlayer.cpp\",\"Rtsp/RtspPusher.cpp\",\"Rtsp/RtspSession.cpp\",\"Rtsp/RtspSplitter.cpp\",\"Rtsp/UDPServer.cpp\",\"Shell/ShellSession.cpp\"]}],\"fullName\":\"libzlmediakit.a\",\"linkerLanguage\":\"CXX\",\"name\":\"zlmediakit\",\"sourceDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/src\",\"sysroot\":\"/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libext-codec.a\"],\"buildDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary/ext-codec\",\"fileGroups\":[{\"isGenerated\":false,\"sources\":[\"AAC.h\",\"AACRtmp.h\",\"AACRtp.h\",\"G711.h\",\"G711Rtp.h\",\"H264.h\",\"H264Rtmp.h\",\"H264Rtp.h\",\"H265.h\",\"H265Rtmp.h\",\"H265Rtp.h\",\"JPEG.h\",\"JPEGRtp.h\",\"L16.h\",\"Opus.h\",\"SPSParser.h\"]},{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -std\u003dc++11 -frtti -fexceptions -DNDEBUG  -fPIC   -fPIC -Wall -Wextra -Wno-unused-function -Wno-unused-parameter -Wno-unused-variable -Wno-error\u003dextra -Wno-error\u003dmissing-field-initializers -Wno-error\u003dtype-limits -g0 -std\u003dgnu++11\",\"defines\":[\"ENABLE_HLS\",\"ENABLE_MP4\",\"ENABLE_RTPPROXY\",\"ENABLE_VERSION\",\"HAVE_MMSG_HDR\",\"HAVE_RECVMMSG_API\",\"HAVE_SENDMMSG_API\"],\"includePath\":[{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/..\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/src\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/jsoncpp/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libflv/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libmov/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libmpeg/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/ZLToolKit/src\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"AAC.cpp\",\"AACRtmp.cpp\",\"AACRtp.cpp\",\"G711.cpp\",\"G711Rtp.cpp\",\"H264.cpp\",\"H264Rtmp.cpp\",\"H264Rtp.cpp\",\"H265.cpp\",\"H265Rtmp.cpp\",\"H265Rtp.cpp\",\"JPEG.cpp\",\"JPEGRtp.cpp\",\"L16.cpp\",\"Opus.cpp\"]},{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -DNDEBUG  -fPIC   -fPIC -Wall -Wextra -Wno-unused-function -Wno-unused-parameter -Wno-unused-variable -Wno-error\u003dextra -Wno-error\u003dmissing-field-initializers -Wno-error\u003dtype-limits -g0\",\"defines\":[\"ENABLE_HLS\",\"ENABLE_MP4\",\"ENABLE_RTPPROXY\",\"ENABLE_VERSION\",\"HAVE_MMSG_HDR\",\"HAVE_RECVMMSG_API\",\"HAVE_SENDMMSG_API\"],\"includePath\":[{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/..\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/src\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/jsoncpp/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libflv/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libmov/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libmpeg/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/ZLToolKit/src\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"SPSParser.c\"]}],\"fullName\":\"libext-codec.a\",\"linkerLanguage\":\"CXX\",\"name\":\"ext-codec\",\"sourceDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec\",\"sysroot\":\"/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libsrt.a\"],\"buildDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary/srt\",\"fileGroups\":[{\"isGenerated\":false,\"sources\":[\"Ack.hpp\",\"Common.hpp\",\"HSExt.hpp\",\"NackContext.hpp\",\"Packet.hpp\",\"PacketQueue.hpp\",\"PacketSendQueue.hpp\",\"SrtSession.hpp\",\"SrtTransport.hpp\",\"SrtTransportImp.hpp\",\"Statistic.hpp\"]},{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -std\u003dc++11 -frtti -fexceptions -DNDEBUG  -fPIC   -fPIC -Wall -Wextra -Wno-unused-function -Wno-unused-parameter -Wno-unused-variable -Wno-error\u003dextra -Wno-error\u003dmissing-field-initializers -Wno-error\u003dtype-limits -g0 -std\u003dgnu++11\",\"defines\":[\"ENABLE_HLS\",\"ENABLE_MP4\",\"ENABLE_RTPPROXY\",\"ENABLE_VERSION\",\"HAVE_MMSG_HDR\",\"HAVE_RECVMMSG_API\",\"HAVE_SENDMMSG_API\"],\"includePath\":[{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/srt\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/srt/..\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/src\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/jsoncpp/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libflv/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libmov/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libmpeg/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/ZLToolKit/src\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"Ack.cpp\",\"HSExt.cpp\",\"NackContext.cpp\",\"Packet.cpp\",\"PacketQueue.cpp\",\"PacketSendQueue.cpp\",\"SrtSession.cpp\",\"SrtTransport.cpp\",\"SrtTransportImp.cpp\",\"Statistic.cpp\"]}],\"fullName\":\"libsrt.a\",\"linkerLanguage\":\"CXX\",\"name\":\"srt\",\"sourceDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/srt\",\"sysroot\":\"/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libmk_api.a\"],\"buildDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary/api\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -std\u003dc++11 -frtti -fexceptions -DNDEBUG  -fPIC   -std\u003dgnu++11\",\"defines\":[\"ENABLE_HLS\",\"ENABLE_MP4\",\"ENABLE_RTPPROXY\",\"ENABLE_SRT\",\"ENABLE_VERSION\",\"HAVE_MMSG_HDR\",\"HAVE_RECVMMSG_API\",\"HAVE_SENDMMSG_API\",\"MediaKitApi_STATIC\"],\"includePath\":[{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary/api\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/api/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/jsoncpp/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libflv/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libmov/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libmpeg/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/ZLToolKit/src\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/src\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/..\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/srt\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/srt/..\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"source/mk_common.cpp\",\"source/mk_events.cpp\",\"source/mk_events_objects.cpp\",\"source/mk_frame.cpp\",\"source/mk_h264_splitter.cpp\",\"source/mk_httpclient.cpp\",\"source/mk_media.cpp\",\"source/mk_player.cpp\",\"source/mk_proxyplayer.cpp\",\"source/mk_pusher.cpp\",\"source/mk_recorder.cpp\",\"source/mk_rtp_server.cpp\",\"source/mk_tcp.cpp\",\"source/mk_thread.cpp\",\"source/mk_track.cpp\",\"source/mk_transcode.cpp\",\"source/mk_util.cpp\"]},{\"isGenerated\":false,\"sources\":[\"include/mk_common.h\",\"include/mk_events.h\",\"include/mk_events_objects.h\",\"include/mk_frame.h\",\"include/mk_h264_splitter.h\",\"include/mk_httpclient.h\",\"include/mk_media.h\",\"include/mk_mediakit.h\",\"include/mk_player.h\",\"include/mk_proxyplayer.h\",\"include/mk_pusher.h\",\"include/mk_recorder.h\",\"include/mk_rtp_server.h\",\"include/mk_tcp.h\",\"include/mk_thread.h\",\"include/mk_track.h\",\"include/mk_transcode.h\",\"include/mk_util.h\",\"source/mk_tcp_private.h\"]}],\"fullName\":\"libmk_api.a\",\"linkerLanguage\":\"CXX\",\"name\":\"mk_api\",\"sourceDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/api\",\"sysroot\":\"/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/libMediaServer.a\"],\"buildDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary/server\",\"fileGroups\":[{\"isGenerated\":false,\"sources\":[\"FFmpegSource.h\",\"Process.h\",\"System.h\",\"WebApi.h\",\"WebHook.h\"]},{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -std\u003dc++11 -frtti -fexceptions -DNDEBUG  -fPIC   -fPIC -Wall -Wextra -Wno-unused-function -Wno-unused-parameter -Wno-unused-variable -Wno-error\u003dextra -Wno-error\u003dmissing-field-initializers -Wno-error\u003dtype-limits -g0 -std\u003dgnu++11\",\"defines\":[\"DISABLE_MAIN\",\"ENABLE_HLS\",\"ENABLE_MP4\",\"ENABLE_RTPPROXY\",\"ENABLE_SRT\",\"ENABLE_VERSION\",\"HAVE_MMSG_HDR\",\"HAVE_RECVMMSG_API\",\"HAVE_SENDMMSG_API\"],\"includePath\":[{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/libs_export/arm64-v8a/binary\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/jsoncpp/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libflv/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libmov/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/media-server/libmpeg/include\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/3rdpart/ZLToolKit/src\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/src\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/ext-codec/..\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/srt\"},{\"path\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/srt/..\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"FFmpegSource.cpp\",\"Process.cpp\",\"System.cpp\",\"WebApi.cpp\",\"WebHook.cpp\",\"main.cpp\"]}],\"fullName\":\"libMediaServer.a\",\"linkerLanguage\":\"CXX\",\"name\":\"MediaServer\",\"sourceDirectory\":\"/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/server\",\"sysroot\":\"/Users/wuyadong/Library/Android/sdk/ndk/23.2.8568313/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a/build_output.txt",
+    "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file /Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/.cxx/cmake/release/arm64-v8a/build_command.txt",
     "file": "/Users/wuyadong/Documents/WorkSpace/ZLMediaKit/Android/app/src/main/cpp/CMakeLists.txt",
     "tag": "release|arm64-v8a"
   },
